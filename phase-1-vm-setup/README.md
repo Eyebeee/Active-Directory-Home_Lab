@@ -22,5 +22,4 @@ Set up the core virtualization environment that the rest of the Active Directory
 
 **Solution:** Disabled the VM's network adapter *before* starting the Windows 11 installation. With no network connection detected, Windows 11 fell back to offline setup, which allowed creating a local account directly instead of forcing a Microsoft sign-in.
 
-## Next Steps
-With the three base VMs created, the next phase focused on getting them talking to each other on an isolated virtual network — see [Phase 2 — Networking](../phase-2-networking/README.md).
+
